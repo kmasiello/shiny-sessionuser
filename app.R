@@ -13,6 +13,9 @@ ui <- fluidPage(
         ),
 
         mainPanel(
+          tags$b("Code available at: "),
+          a("https://github.com/kmasiello/shiny-sessionuser"),
+          br(),
           tags$b("Shiny server code"),
           verbatimTextOutput("server_code"),
           br(),
